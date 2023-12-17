@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Lists.css'; // Import your Lists component CSS file
+import './Lists.css';
 
 const apiUrl = process.env.BACKEND_API_ENDPOINT || 'http://localhost:5000/lists';
 
@@ -7,7 +7,6 @@ const Lists: React.FC = () => {
   const [toolData, setToolData] = useState<any[]>([]);
 
   useEffect(() => {
-    // Fetch data from your API
     fetch(apiUrl)
       .then((response) => response.json())
       .then((data) => setToolData(data))

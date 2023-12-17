@@ -1,14 +1,14 @@
 /* App.css */
 body {
-    background-color: #1e1e1e; /* Set default background color for dark mode */
-    color: #fff; /* Set default text color for dark mode */
+    background-color: #1e1e1e;
+    color: #fff;
     font-family: 'DefaultFont', sans-serif;
   }
   
   
   .pixel-font {
     font-family: 'Pixeloid';
-    font-size: 24px; /* Adjust size as needed */
+    font-size: 24px;
   }
 
   @font-face {
@@ -22,15 +22,15 @@ body {
   }
 
   .navbar {
-    background-color: #333; /* Navigation background color */
-    color: #fff; /* Navigation text color */
+    background-color: #333;
+    color: #fff;
     padding: 10px;
     display: flex;
     align-items: center;
   }
   
   .title {
-    margin-right: auto; /* Moves the title to the left */
+    margin-right: auto;
   }
   
   .title .pixel-font {

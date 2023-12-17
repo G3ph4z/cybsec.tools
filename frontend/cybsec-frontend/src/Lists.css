@@ -1,29 +1,25 @@
 /* Lists.css */
 
-/* Centering the tool list container */
 .tool-list-container {
     display: flex;
     justify-content: center;
-    margin-top: 20px; /* Adjust the margin as needed */
+    margin-top: 20px;
   }
   
-  /* Styling for the table */
   .tool-list-table {
-    border: 1px solid #ccc; /* Light border */
+    border: 1px solid #ccc;
     border-collapse: collapse;
-    width: 80%; /* Adjust the width as needed */
-    margin-bottom: 20px; /* Adjust the margin as needed */
+    width: 80%;
+    margin-bottom: 20px;
   }
   
-  /* Styling for table header */
   .tool-list-table th {
-    border: 1px solid #ccc; /* Light border */
+    border: 1px solid #ccc;
     padding: 8px;
   }
   
-  /* Styling for table cells */
   .tool-list-table td {
-    border: 1px solid #ccc; /* Light border */
+    border: 1px solid #ccc;
     padding: 8px;
   }
   
@@ -32,13 +28,13 @@
     padding: 4px 8px;
     margin-right: 4px;
     margin-bottom: 4px;
-    border-radius: 15px; /* Adjust as needed for roundness */
-    background-color: #007bff; /* Category badge color */
-    color: #fff; /* Text color */
-    font-size: 12px; /* Adjust font size */
+    border-radius: 15px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 12px;
   }
   
   .tag-badge {
-    background-color: #28a745; /* Tag badge color */
+    background-color: #28a745;
   }
   

@@ -1,5 +1,5 @@
 import React from 'react';
-import Lists from './Lists'; // Import the Lists component
+import Lists from './Lists';
 
 interface ContentProps {
   activeOption: string;
