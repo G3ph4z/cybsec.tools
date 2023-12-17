@@ -1,0 +1,96 @@
+/* App.css */
+body {
+    background-color: #1e1e1e; /* Set default background color for dark mode */
+    color: #fff; /* Set default text color for dark mode */
+    font-family: 'DefaultFont', sans-serif;
+  }
+  
+  
+  .pixel-font {
+    font-family: 'Pixeloid';
+    font-size: 24px; /* Adjust size as needed */
+  }
+
+  @font-face {
+    font-family: 'Pixeloid';
+    src: local('Pixeloid'), url(./fonts/Pixeloid/sans.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'DefaultFont';
+    src: local('SF-Pro'), url(./fonts/SF-Pro/Rounded-Regular.otf) format('opentype');
+  }
+
+  .navbar {
+    background-color: #333; /* Navigation background color */
+    color: #fff; /* Navigation text color */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .title {
+    margin-right: auto; /* Moves the title to the left */
+  }
+  
+  .title .pixel-font {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .content {
+    padding: 20px;
+    font-size: 18px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .search-bar {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    background-color: #333;
+    color: #fff;
+  }
