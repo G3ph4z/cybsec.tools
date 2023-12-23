@@ -1,3 +1,0 @@
-{"_id":{"$oid":"657f49230e49d40be6985ff6"},"id":1,"name":"Nmap","url":"https://nmap.org/","mitre_cat":"reconnaissance, initial access","tags":"network scan, foss"}
-{"_id":{"$oid":"657f49280e49d40be6985ff7"},"id":2,"name":"Metasploit","url":"https://www.metasploit.com/","mitre_cat":"execution, lateral movement","tags":"exploitation, framework"}
-{"_id":{"$oid":"657f492d0e49d40be6985ff8"},"id":3,"name":"Wireshark","url":"https://www.wireshark.org/","mitre_cat":"discovery, collection","tags":"packet analyzer, network traffic"}
