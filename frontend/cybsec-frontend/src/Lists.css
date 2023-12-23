@@ -1,40 +1,81 @@
 /* Lists.css */
 
+/* Tool list container */
 .tool-list-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .tool-list-table {
-    border: 1px solid #ccc;
-    border-collapse: collapse;
-    width: 80%;
-    margin-bottom: 20px;
-  }
-  
-  .tool-list-table th {
-    border: 1px solid #ccc;
-    padding: 8px;
-  }
-  
-  .tool-list-table td {
-    border: 1px solid #ccc;
-    padding: 8px;
-  }
-  
-  .badge {
-    display: inline-block;
-    padding: 4px 8px;
-    margin-right: 4px;
-    margin-bottom: 4px;
-    border-radius: 15px;
-    background-color: #007bff;
-    color: #fff;
-    font-size: 12px;
-  }
-  
-  .tag-badge {
-    background-color: #28a745;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Tool list table */
+.tool-list-table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+/* Tool list table headings */
+.tool-list-table th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+/* Tool list table data cells */
+.tool-list-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+/* Badges for category and tag */
+.badge {
+  margin-right: 0.5em;
+  display: inline-block;
+  padding: 4px 8px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  border-radius: 15px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 12px;
+  background-color: #a5a5a5;
+  color: white;
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+
+/* Tag badge */
+.tag-badge {
+  background-color: #28a745;
+}
+
+/* Text center alignment */
+.text-center {
+  text-align: center;
+}
+
+/* Pagination container */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Pagination buttons */
+.pagination button {
+  margin: 0 5px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Disabled pagination button */
+.pagination button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

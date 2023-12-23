@@ -18,7 +18,7 @@ const Navigation: React.FC<{ setActiveOption: (option: string) => void }> = ({ s
       <ul>
         <li onClick={() => handleOptionClick('Home') }>Home</li>
         <li onClick={() => handleOptionClick('Tools')}>Tools</li>
-        <li onClick={() => handleOptionClick('Services')}>Submit</li>
+        <li onClick={() => handleOptionClick('Submit')}>Submit</li>
         <li onClick={() => handleOptionClick('Contact')}>Contact</li>
       </ul>
       <div className="search-bar">
